@@ -2,9 +2,7 @@
 
 A simple JavaScript game where the player controls a basket to catch falling objects and earn points.
 
-## 🚀 Live Demo
 
-[Play the Game](#)
 ![Game Screenshot](screenshot1.png)
 ![Game Screenshot](screenshot2.png)
 ## 📝 Description
