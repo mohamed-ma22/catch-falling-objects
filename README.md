@@ -1,39 +1,44 @@
-# 🎮 Catch Falling Objects
+# 🎮 Catch the Falling Objects
 
 A simple JavaScript game where the player controls a basket to catch falling objects and earn points.
 
+## 🖼️ Game Preview
 
-[![Game Screenshot](screenshot1.png)](https://mohamed-ma22.github.io/catch-falling-objects/)
-[![Game Screenshot](screenshot2.png)](https://mohamed-ma22.github.io/catch-falling-objects/)
+![Game Screenshot](screenshot.png1)
+
 ## 📝 Description
 
-**Catch Falling Objects** is a browser-based game built using HTML, CSS, and JavaScript.
+**Catch the Falling Objects** is a browser-based game built using HTML, CSS, and JavaScript.
 
-The player controls a basket and tries to catch the falling objects before they reach the bottom of the screen.
+The player controls a basket and tries to catch the falling objects before they reach the bottom of the game area.
 
 ## 🎯 Features
 
-* 🎮 Player-controlled basket
-* 🍎 Falling objects
+* 🎮 Control the basket using the keyboard
+* ⬅️➡️ Move the basket using the Arrow Left / Arrow Right keys
+* ⌨️ Supports `A` and `D` keys for movement
+* 🔴 Falling objects with random colors
 * ⭐ Score system
-* ⏱️ Game timer
-* 💥 Game-over condition
-* 📱 Simple and responsive interface
+* ❤️ Lives system
+* 💥 Game Over screen
+* 🔄 Restart Game button
+* 📱 Responsive design
 
 ## 🛠️ Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript (ES6)
-* Bootstrap
 
 ## ▶️ How to Play
 
 1. Open the game.
-2. Move the basket using the available controls.
-3. Catch the falling objects to increase your score.
-4. Avoid missing objects.
-5. Try to achieve the highest score possible! 🏆
+2. Use the **Arrow Left** and **Arrow Right** keys to move the basket.
+3. You can also use the **A** and **D** keys.
+4. Catch the falling objects to increase your score.
+5. If you miss an object, you lose a life.
+6. The game ends when all 3 lives are lost.
+7. Click **Restart Game** to play again.
 
 ## 📂 Project Structure
 
@@ -43,13 +48,10 @@ catch-falling-objects/
 ├── index.html
 ├── game.css
 ├── game.js
+├── screenshot.png
 └── README.md
 ```
 
 ## 👨‍💻 Author
 
 **Mohamed Ashraf**
-
----
-
-⭐ If you like the project, feel free to give it a star!
