@@ -5,7 +5,8 @@ A simple JavaScript game where the player controls a basket to catch falling obj
 ## 🚀 Live Demo
 
 [Play the Game](#)
-
+![Game Screenshot](screenshot1.png)
+![Game Screenshot](screenshot2.png)
 ## 📝 Description
 
 **Catch Falling Objects** is a browser-based game built using HTML, CSS, and JavaScript.
