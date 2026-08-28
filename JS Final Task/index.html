@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Catch the Falling Objects</title>
+	<link rel="stylesheet" href="game.css">
+</head>
+<body>
+	<main class="game-wrapper">
+		<h1>Catch the Falling Objects</h1>
+
+		<div class="scoreboard" aria-live="polite">
+			<p>Score: <span id="score">0</span></p>
+			<p>Lives: <span id="lives">3</span></p>
+		</div>
+
+		<section id="game-area" class="game-area" aria-label="Game area">
+			<div id="basket" class="basket" aria-label="Basket"></div>
+
+			<div id="game-over" class="game-over" hidden>
+				<h2>Game Over!</h2>
+				<p>Final Score: <span id="final-score">0</span></p>
+				<button id="restart-button" type="button">Restart Game</button>
+			</div>
+		</section>
+	</main>
+
+	<script src="game.js"></script>
+</body>
+</html>
